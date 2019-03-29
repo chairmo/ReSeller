@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/ic_notifications"
+            android:title="Notifications"
+            app:actionViewClass="android.widget.TextView" />
+        <item
+            android:id="@+id/posts"
+            android:icon="@drawable/ic_offers"
+            android:title="My Offers" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="More Options">
+        <menu>
+
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/ic_person"
+                android:title="View Profile" />
+            <item
+                android:id="@+id/message"
+                android:icon="@drawable/ic_email"
+                android:title="Messages" />
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Log out" />
+    <item
+        android:id="@+id/login"
+        android:icon="@drawable/ic_login"
+        android:title="Log in" />
+    <item
+        android:id="@+id/signup"
+        android:icon="@drawable/ic_signup"
+        android:title="Sign up" />
+
+</menu>

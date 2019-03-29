@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>Sports</item>
+        <item>Music</item>
+        <item>Electronics</item>
+        <item>Clothes</item>
+        <item>Educational</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="spinnerItems1">
+    <item>Used</item>
+    <item>Like New</item>
+    <item>New</item>
+</string-array>
+</resources>

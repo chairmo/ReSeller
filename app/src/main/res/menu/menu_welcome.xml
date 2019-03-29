@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.reseller.Welcome">
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="101"
+        android:title="Search"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_registration"
+        android:orderInCategory="102"
+        android:icon="@drawable/ic_registration"
+        android:title="@string/registration"/>
+    <item
+        android:id="@+id/action_authentication"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:orderInCategory="103"
+        android:title="@string/login"/>
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="104"
+        android:icon="@drawable/ic_profile"
+        android:title="View Profile" />
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_logout"
+        android:orderInCategory="105"
+        android:title="@string/logout" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="106"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/action_googleIn"
+        android:orderInCategory="103"
+        android:title="@string/google_in" /> -->
+
+</menu>

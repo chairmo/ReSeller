@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_marginBottom="40dp">
+
+    <LinearLayout
+        android:id="@+id/makeoffer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/prodImg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/name-price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prodImg"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/itemName"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:text="Item Name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:text="$20"
+                android:textSize="20sp"
+                android:textStyle="italic|bold"
+                android:textColor="#000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Category: Electronics"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:textColor="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/condition"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Condition: Very Good"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:textColor="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name-price"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Long text Long text Long text Long text Long text Long text Long text even longer text even longer text even longer text even longer text"
+                android:textColor="#000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Posted By:"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/postedBy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shweti"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:textColor="#000" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+    <LinearLayout
+        android:id="@+id/makeOfferLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Make Offer"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>
