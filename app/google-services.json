@@ -1,9 +1,9 @@
 {
   "project_info": {
     "project_number": "52786477592",
-    "firebase_url": "https://reseller-6acb9.firebaseio.com",
-    "project_id": "reseller-6acb9",
-    "storage_bucket": "reseller-6acb9.appspot.com"
+    "firebase_url": "",
+    "project_id": "",
+    "storage_bucket": ""
   },
   "client": [
     {
@@ -29,7 +29,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCPi1O4er3qQgNAqg5yaTJpShhueoHAGs4"
+          "current_key": ""
         }
       ],
       "services": {
