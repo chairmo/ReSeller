@@ -12,9 +12,6 @@ import android.support.v7.widget.Toolbar;
 import com.android.reseller.R;
 import com.android.reseller.ui.fragments.LoginFragment;
 
-/**
- * Created by User on 2/28/2018.
- */
 
 public class LoginActivity extends AppCompatActivity{
     private Toolbar mToolbar;
